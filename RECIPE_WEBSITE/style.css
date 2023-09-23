@@ -1,0 +1,168 @@
+#navlist {
+  width: 100%;
+  list-style: none;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 15px; */
+  /* margin-right: 15px; */
+  padding: 15px;
+}
+nav {
+  width: 100%;
+  padding-right: 2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  background-color: #e2e5e8;
+  background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
+}
+.navContainer {
+  width: 100vw;
+  /* background-color: rgba(113, 113, 154, 0.776); */
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* text-align: center; */
+}
+
+#navlogo {
+  font-size: 2.8rem;
+  font-weight: 900;
+  /* text-align: center; */
+  color: #ffff;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+.navItems {
+  display: flex;
+  gap: 40px;
+  
+}
+
+.navItems a:hover{
+    transform: scale(1.1);
+}
+.navItems a{
+    transition: all 0.2s linear 0s;
+}
+
+.footerBox {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  text-align: center;
+  min-height: 30px;
+}
+
+.footerBox p{
+    color: azure;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+
+.contentBox{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 30px black;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightBox{
+    position: relative;
+    /* overflow: hidden; */
+    transition:  all 0.3s linear 0s;
+}
+.rightBox img{
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
+    transition:  all 0.6s linear 0s;
+    /* border: 1px solid black; */
+}
+.rightBox:hover{
+    transform: scale(1.1);
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftBox h2{
+    font-size: 2rem;
+}
+
+.ingBox{
+    font-size: 1.3rem;
+}
+
+.recBox{
+    font-size: 1.1rem;
+}
+
+.rightBox .overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:  all 1s linear 0s;
+}
+
+.rightBox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+}
+.rightBox .overlay:hover{
+    /* transform: scale(1.1); */
+    opacity: 1;
+}
