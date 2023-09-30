@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    background-color: rgba(189, 189, 189, 0.938);
+}
+button{
+    padding: 15px 50px;
+    border: 3px solid black;
+}
+.button{
+    display: inline-block;
+    margin: 0px 5px;
+}
+#grey{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: grey;
+}
+#white{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: #fff;
+}
+#blue{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: blue;
+}
+#yellow{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: yellow;
+}
