@@ -13,7 +13,7 @@ let prevGuess = [];
 let numGuesses = 1;
 
 let playGame = true;
-let c =0;
+const a = "Sachin";
 
 if (playGame) {
   btn.addEventListener("click", function (e) {
@@ -46,7 +46,9 @@ function validateGuess(guess) {
 
 function checkGuess(guess) {
   if (guess === random) {
-    displayMessage(`Congratulations!! you win this game  & random no is ${random}`);
+    displayMessage(
+      `Congratulations!! you win this game  & random no is ${random}`
+    );
     endGame();
   } else if (guess < random) {
     displayMessage(`Number is too low`);
