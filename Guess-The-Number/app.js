@@ -13,6 +13,7 @@ let prevGuess = [];
 let numGuesses = 1;
 
 let playGame = true;
+let c =0;
 
 if (playGame) {
   btn.addEventListener("click", function (e) {
