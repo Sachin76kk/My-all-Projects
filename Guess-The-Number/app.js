@@ -13,8 +13,6 @@ let prevGuess = [];
 let numGuesses = 1;
 
 let playGame = true;
-const a = "Sachin";
-
 if (playGame) {
   btn.addEventListener("click", function (e) {
     e.preventDefault();
